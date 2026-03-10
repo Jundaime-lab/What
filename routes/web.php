@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Project; // Jangan lupa tambahkan ini di paling atas!
 
 // Halaman utama langsung menampilkan Portfolio
 Route::get('/', function () {
@@ -19,5 +20,6 @@ Route::get('/grid/mlaravel', function () {
 
 // Portofolio (bisa diakses via / atau /portfolio)
 Route::get('/portfolio', function () {
-    return view('portfolio');
+    $projects = Project::all(); // Mengambil SEMUA data dari tabel projects
+    return view('portfolio', compact('projects')); // Mengirim variabel $projects ke view
 });
