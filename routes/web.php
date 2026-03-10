@@ -1,5 +1,5 @@
 <?php
 
-use App\Http\Controllers\BukuController;
-
-Route::get('/buku', [BukuController::class, 'index']);
+Route::get('/grid', function () {
+    return view('tugas_grid');
+});
