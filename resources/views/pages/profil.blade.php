@@ -1,10 +1,10 @@
 @extends('layouts.template')
 
-@section('title', 'Beranda')
+@section('title', 'Profil Kami')
 
 @section('content')
-    <h1>Beranda</h1>
-    <p>Ini adalah halaman beranda yang juga menggunakan layout yang sama.</p>
+    <h1>Tentang Kami</h1>
+    <p>Ini adalah halaman profil yang juga menggunakan layout yang sama.</p>
     
     <div class="row">
         <div class="col-md-6">

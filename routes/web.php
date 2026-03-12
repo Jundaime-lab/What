@@ -29,3 +29,11 @@ Route::get('/portfolio', function () {
 Route::get('/beranda', function () {
     return view('pages.beranda');
 });
+
+Route::get('/profil', function () {
+    return view('pages.profil');
+});
+
+Route::get('/tentang-kami', function () {
+    return view('pages.tentang-kami');
+});
