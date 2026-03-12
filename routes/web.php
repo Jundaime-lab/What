@@ -25,3 +25,7 @@ Route::get('/portfolio', function () {
     
     return view('portfolio', compact('projects'));
 });
+
+Route::get('/beranda', function () {
+    return view('pages.beranda');
+});
