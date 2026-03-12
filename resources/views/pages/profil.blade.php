@@ -3,7 +3,7 @@
 @section('title', 'Profil Kami')
 
 @section('content')
-    <h1>Tentang Kami</h1>
+    <h1>Profil</h1>
     <p>Ini adalah halaman profil yang juga menggunakan layout yang sama.</p>
     
     <div class="row">
